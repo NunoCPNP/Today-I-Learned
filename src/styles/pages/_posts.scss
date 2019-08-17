@@ -7,11 +7,20 @@
   & p {
     display: block;
     margin-bottom: 1.75rem;
-    font-size: 0.8rem;
     line-height: 1.75rem;
   }
 
   & hr {
     margin-bottom: 1.75rem;
+  }
+
+  &__navigation {
+    & ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      list-style: none;
+      padding: 0;
+    }
   }
 }

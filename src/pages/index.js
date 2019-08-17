@@ -25,7 +25,7 @@ class BlogIndex extends PureComponent {
                 </h3>
                 <small>{node.frontmatter.date}</small>
               </header>
-              <section>
+              <section className="articles__body">
                 <p
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt

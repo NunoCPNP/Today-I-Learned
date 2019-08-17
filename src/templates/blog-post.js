@@ -29,16 +29,8 @@ class BlogPostTemplate extends PureComponent {
           </footer>
         </article>
 
-        <nav>
-          <ul
-            style={{
-              display: `flex`,
-              flexWrap: `wrap`,
-              justifyContent: `space-between`,
-              listStyle: `none`,
-              padding: 0
-            }}
-          >
+        <nav className="blog-posts__navigation">
+          <ul>
             <li>
               {previous && (
                 <Link to={previous.fields.slug} rel="prev">
