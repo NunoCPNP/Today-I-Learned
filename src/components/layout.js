@@ -29,13 +29,18 @@ class Layout extends PureComponent {
     }
     return (
       <div className="main-container">
-        <header>{header}</header>
-        <main>{children}</main>
-        <footer>
-          ©&nbsp;
-          {new Date().getFullYear()}, Built with &nbsp;
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <div className="main-container__content">
+          <header>{header}</header>
+          <main>{children}</main>
+          <footer>
+            ©&nbsp;
+            {new Date().getFullYear()}, Built with &nbsp;
+            <a href="https://www.gatsbyjs.org">Gatsby</a>
+          </footer>
+        </div>
+        <div className="main-container__bio">
+          <div>...</div>
+        </div>
       </div>
     );
   }
