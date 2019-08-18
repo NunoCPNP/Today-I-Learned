@@ -1,6 +1,6 @@
 .main-container {
   display: grid;
-  grid-template-columns: auto 30rem;
+  grid-template-columns: auto 32rem;
 
   &__content {
     grid-column: 1 / 2;
@@ -10,9 +10,10 @@
     padding: 4rem 0rem;
   }
 
-  &__bio {
+  &__sidebar {
     grid-column: 2 / 3;
-    background-color: $color-1;
+    background-color: $color-5;
+    min-height: 100vh;
   }
 
   &__footer {

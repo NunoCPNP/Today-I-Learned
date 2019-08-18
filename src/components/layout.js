@@ -2,6 +2,8 @@
 import React, { PureComponent } from 'react';
 import { Link } from 'gatsby';
 
+import Sidebar from './sidebar';
+
 import '../styles/main.scss';
 
 class Layout extends PureComponent {
@@ -38,8 +40,8 @@ class Layout extends PureComponent {
             <a href="https://www.gatsbyjs.org">Gatsby</a>
           </footer>
         </div>
-        <div className="main-container__bio">
-          <div>...</div>
+        <div className="main-container__sidebar">
+          <Sidebar />
         </div>
       </div>
     );
