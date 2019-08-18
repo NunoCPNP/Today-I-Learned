@@ -1,5 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap');
 
-// font-family: 'Montserrat', sans-serif;
-// font-family: 'Merriweather', serif;
+h1 {
+  font-family: $header-typography;
+  font-size: 5rem;
+  color: $color-1;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: $header-typography;
+  font-size: 3rem;
+  color: $color-1;
+  font-weight: 900;
+}
+
+h3 {
+  font-family: $header-typography;
+  font-size: 2rem;
+  color: $color-1;
+  font-weight: 900;
+}
+
+h4 {
+  font-family: $main-typography;
+  font-size: 2rem;
+  color: $color-1;
+}
+
+h5 {
+  font-family: $main-typography;
+  font-size: 2rem;
+}
+
+h6 {
+  font-family: $main-typography;
+  font-size: 2rem;
+}
+
+p {
+  font-family: $main-typography;
+  font-size: 1.5rem;
+}

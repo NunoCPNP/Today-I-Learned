@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
 import { Link, graphql } from 'gatsby';
 
-import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
@@ -14,7 +13,6 @@ class BlogIndex extends PureComponent {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug;
           return (
@@ -23,9 +21,9 @@ class BlogIndex extends PureComponent {
                 <h3>
                   <Link to={node.fields.slug}>{title}</Link>
                 </h3>
-                <small>{node.frontmatter.date}</small>
+                <div className="articles__data">{node.frontmatter.date}</div>
               </header>
-              <section>
+              <section className="articles__body">
                 <p
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt
