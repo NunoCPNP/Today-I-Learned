@@ -21,7 +21,7 @@ class BlogIndex extends PureComponent {
                 <h3>
                   <Link to={node.fields.slug}>{title}</Link>
                 </h3>
-                <small>{node.frontmatter.date}</small>
+                <div className="articles__data">{node.frontmatter.date}</div>
               </header>
               <section className="articles__body">
                 <p

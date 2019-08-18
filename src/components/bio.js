@@ -36,8 +36,8 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.&nbsp;
+        Written by <span>{author}</span> a Portuguese self-taught Front-End
+        Developer.&nbsp;
         <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter
         </a>

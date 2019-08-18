@@ -18,7 +18,7 @@ class BlogPostTemplate extends PureComponent {
           description={post.frontmatter.description || post.excerpt}
         />
         <article className="blog-posts">
-          <header>
+          <header className="blog-posts__header">
             <h1>{post.frontmatter.title}</h1>
             <p>{post.frontmatter.date}</p>
           </header>

@@ -2,6 +2,15 @@
   display: flex;
   margin-bottom: 4rem;
 
+  & p {
+    font-family: $header-typography;
+
+    & span {
+      font-weight: 700;
+      color: $color-1;
+    }
+  }
+
   &__img {
     margin-bottom: 0;
     min-width: 5rem;
