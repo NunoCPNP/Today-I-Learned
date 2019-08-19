@@ -1,0 +1,12 @@
+.sidebar {
+  display: flex;
+  justify-content: center;
+
+  &__image {
+    margin-top: 2rem;
+
+    & img {
+      border-radius: 1rem;
+    }
+  }
+}
