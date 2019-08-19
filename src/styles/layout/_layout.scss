@@ -1,6 +1,6 @@
 .main-container {
   display: grid;
-  grid-template-columns: auto 32rem;
+  grid-template-columns: auto 28rem;
 
   &__content {
     grid-column: 1 / 2;
@@ -12,12 +12,12 @@
 
   &__sidebar {
     grid-column: 2 / 3;
-    background-color: #000;
+    background-color: $color-black;
     min-height: 100vh;
   }
 
   &__footer {
-    font-family: $header-typography;
+    font-family: $main-typography;
   }
 }
 

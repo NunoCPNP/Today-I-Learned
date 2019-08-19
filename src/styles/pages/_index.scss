@@ -6,11 +6,11 @@
   & a {
     box-shadow: none;
     text-decoration: none;
-    color: $color-1;
+    color: $color-black;
   }
 
   &__data {
-    font-family: $header-typography;
+    font-family: $main-typography;
     font-size: 1rem;
     margin-bottom: 2rem;
   }

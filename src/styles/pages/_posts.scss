@@ -15,7 +15,7 @@
     margin-bottom: 3rem;
 
     & p {
-      font-family: $header-typography;
+      font-family: $main-typography;
     }
   }
 
@@ -35,10 +35,10 @@
     }
 
     & li > a {
-      font-family: $header-typography;
+      font-family: $main-typography;
       font-size: 1.5rem;
       text-decoration: none;
-      color: $color-1;
+      color: $color-black;
     }
   }
 }
