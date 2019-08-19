@@ -5,7 +5,7 @@ import Image from 'gatsby-image';
 const sidebar = () => {
   const data = useStaticQuery(graphql`
     query profileimgQuery {
-      avatar: file(absolutePath: { regex: "/image_p2.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/bordered_profile.jpg/" }) {
         childImageSharp {
           fixed(width: 250, height: 250) {
             ...GatsbyImageSharpFixed
