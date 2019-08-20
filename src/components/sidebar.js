@@ -35,7 +35,13 @@ const sidebar = () => {
         <div>
           <div className="sidebar__links">
             <FaLink />
-            <p>www.nunopereira.dev</p>
+            <a
+              href="https://www.nunopereira.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              www.nunopereira.dev
+            </a>
           </div>
           <div className="sidebar__links">
             <FaRegEnvelope />
@@ -43,9 +49,27 @@ const sidebar = () => {
           </div>
         </div>
         <div className="sidebar__icons">
-          <FaGithub />
-          <FaLinkedinIn />
-          <FaInstagram />
+          <a
+            href="https://github.com/NunoCPNP"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/nuno-pereira-016856191/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedinIn />
+          </a>
+          <a
+            href="https://www.instagram.com/nunopereiradev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram />
+          </a>
         </div>
       </div>
     </IconContext.Provider>
