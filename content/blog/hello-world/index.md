@@ -1,22 +1,17 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+date: '2019-08-17T22:12:03.284Z'
+description: Today I learned, this 3 words got stuck in my head for a couple of days after seeing a 10 minutes presentation of Stefan Judis at the 2019 NDC Conference ...
 ---
 
-This is my first post on my new fake blog! How exciting!
+**Today I learned**, this 3 words got stuck in my head for a couple of days after seeing a 10 minutes [presentation](https://youtu.be/kIhITzw0CG8) of **Stefan Judis** at the 2019 NDC Conference
 
-I'm sure I'll write a lot more interesting things in the future.
+During the presentation Stefan talks about the power of sharing what you learn and in his last slide of the presentation the message is simple:
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+![](./til.jpg)
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+**Share It !!**
 
-![Chinese Salty Egg](./salty_egg.jpg)
+This message motivated me to develop a Gatsby blog where I can share small things that helped me in the past, amazing things i'm learning at the moment and maybe some tutorials on my favorite technologies.
+
+This is my **Hello World** for the community and I hope you find something helpful for your journey as a developer !
