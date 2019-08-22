@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: '2019-08-17T22:12:03.284Z'
-description:
+description: Today I learned, this 3 words got stuck in my head for a couple of days after seeing a 10 minutes presentation of Stefan Judis at the 2019 NDC Conference ...
 ---
 
 **Today I learned**, this 3 words got stuck in my head for a couple of days after seeing a 10 minutes [presentation](https://youtu.be/kIhITzw0CG8) of **Stefan Judis** at the 2019 NDC Conference
