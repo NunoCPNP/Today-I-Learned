@@ -18,6 +18,16 @@
 
   &__footer {
     font-family: $main-typography;
+
+    & a {
+      text-decoration: none;
+      color: $color-red;
+      font-weight: 700;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 

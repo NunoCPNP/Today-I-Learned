@@ -41,12 +41,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 2rem;
+    justify-items: center;
   }
 }
 
 .react-icons {
   color: $color-white;
-  justify-self: center;
   height: 2rem;
   width: 2rem;
 }
