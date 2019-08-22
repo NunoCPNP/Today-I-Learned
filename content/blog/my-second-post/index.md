@@ -1,6 +1,7 @@
 ---
 title: CSS Grid - Auto-Fit & Auto-Fill
 date: '2019-08-18T23:46:37.121Z'
+description:
 ---
 
 In CSS Grid when using repeat, instead of a set number of times, we can use auto-fit or auto-fill.
