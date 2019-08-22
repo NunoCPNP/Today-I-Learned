@@ -1,3 +1,7 @@
+code {
+  font-size: 1.5rem !important;
+}
+
 .blog-posts {
   & h1 {
     margin-top: 1.75rem;
@@ -11,11 +15,21 @@
     line-height: 2.5rem;
   }
 
+  & a {
+    text-decoration: none;
+    color: $color-red;
+    font-weight: 700;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   &__header {
     margin-bottom: 3rem;
 
     & p {
-      font-family: $header-typography;
+      font-family: $main-typography;
     }
   }
 
@@ -35,10 +49,10 @@
     }
 
     & li > a {
-      font-family: $header-typography;
+      font-family: $main-typography;
       font-size: 1.5rem;
       text-decoration: none;
-      color: $color-1;
+      color: $color-black;
     }
   }
 }

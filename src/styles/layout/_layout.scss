@@ -1,6 +1,6 @@
 .main-container {
   display: grid;
-  grid-template-columns: auto 30rem;
+  grid-template-columns: auto 28rem;
 
   &__content {
     grid-column: 1 / 2;
@@ -10,13 +10,24 @@
     padding: 4rem 0rem;
   }
 
-  &__bio {
+  &__sidebar {
     grid-column: 2 / 3;
-    background-color: $color-1;
+    background-color: $color-black;
+    min-height: 100vh;
   }
 
   &__footer {
-    font-family: $header-typography;
+    font-family: $main-typography;
+
+    & a {
+      text-decoration: none;
+      color: $color-red;
+      font-weight: 700;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
@@ -24,7 +35,7 @@
   &__root {
     & h1 {
       margin-top: 0;
-      margin-bottom: 2.6rem;
+      margin-bottom: 5rem;
     }
 
     & a {
