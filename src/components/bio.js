@@ -16,9 +16,6 @@ const Bio = () => {
       site {
         siteMetadata {
           author
-          social {
-            twitter
-          }
         }
       }
     }
@@ -36,11 +33,8 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <span>{author}</span> a Portuguese self-taught Front-End
-        Developer.&nbsp;
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
+        Written by <span>{author}</span>
+        <br />a Portuguese self-taught Front-End Developer.
       </p>
     </div>
   );

@@ -36,8 +36,12 @@ class Layout extends PureComponent {
           <main>{children}</main>
           <footer className="main-container__footer">
             ©&nbsp;
-            {new Date().getFullYear()}, Built with &nbsp;
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            {new Date().getFullYear()}, Built by&nbsp;
+            <a href="https://www.nunopereira.dev">Nuno Pereira</a>&nbsp; with
+            &nbsp;
+            <a href="https://www.gatsbyjs.org">Gatsby</a>&nbsp; and proudly
+            hosted on&nbsp;
+            <a href="https://www.netlify.com/">Netlify</a>
           </footer>
         </div>
         <div className="main-container__sidebar">
