@@ -14,6 +14,8 @@ Ok , let's get started !
 
 **"var"** was introduced in JavaScript from the beginning while **"let"** was introduced in ES2015/ES6.
 
+<br/>
+
 ## **_Difference n 2!_**
 
 **"Let"** has a <u>block scope</u> while **"var"** as a <u>function scope</u>
@@ -40,6 +42,8 @@ x();
 
 The console.log of the variable v will return 2 because of the function scope of the **"var"** keyword while the l variable will return an error because of the block scope of the **"let"** keyword.
 
+<br/>
+
 ## **_Difference n 3!_**
 
 Variables defined with **"var"** <u>gets hoisted</u> at the top of his function while variables defined with **"let"** <u>don't get hoisted</u>.
@@ -60,6 +64,8 @@ let x = function() {
 
 x();
 ```
+
+<br/>
 
 In this case the variable v will return undefined while the l variable will return an error, this happens because declarations using **var** are <u>hoisted / lifted</u> to the top of their functional/local scope (if declared inside a function) or to the top of their global scope (if declared outside of a function) regardless of where the actual declaration has been made.
 
